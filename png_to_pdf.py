@@ -30,6 +30,4 @@ archivo_pdf = 'Imagenes.pdf'
 # Crea el pdf
 with open(archivo_pdf, 'wb') as f:
     f.write(img2pdf.convert(lista_imagenes))
-
-#Prueba del orden
-#print(lista_imagenes)
+    
